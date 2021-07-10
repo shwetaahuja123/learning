@@ -20,10 +20,11 @@ def register():
     email = data['email']
     password = data['password']
     result = hashlib.sha256(password.encode()).hexdigest()
-    newUser = {email: result}
 
+    newUser = {email: result}
     users.update(newUser)
-    filehandler = open('authDetails.txt', 'wt')
+
+    filehandler = open('src/utilities/authDetails.txt', 'wt')
     data = str(users)
     filehandler.write(data)
 
@@ -40,7 +41,6 @@ def login():
         msg = 'User authenticated'
         key="secret1"
         encoded = jwt.encode({'email':email }, key, algorithm="HS256")
-
         savedUuids[str(encoded)] = email
         return jsonify(data=msg, uuid=encoded)
     else:

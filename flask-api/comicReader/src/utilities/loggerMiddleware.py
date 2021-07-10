@@ -22,8 +22,8 @@ class LoggerMiddleware(object):
         token = bearerToken[len('Bearer '):]
         key = "secret1"
         if token in savedUuids:
-            decoded = jwt.decode(token, key, algorithms="HS256" )
-            email = decoded['email']
+            # decoded = jwt.decode(token, key, algorithms="HS256" )
+            # email = decoded['email']
             return self.app(environ, start_response)
 
         res = Response(u'Authorization failed', mimetype='text/plain', status=401)
