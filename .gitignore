@@ -1,0 +1,5 @@
+.idea/
+flask-api/.idea/
+flask-api/comicReader/venv/
+flask-api/fileDownloader/venv/
+flask-api/comicReader/src/utilities/__pycache__/
