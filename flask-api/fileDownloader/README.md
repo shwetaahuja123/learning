@@ -1,18 +1,18 @@
-#How to create virtual environtment
+## Create virtual environtment
 
-```aidl
+```
 >virtualenv venv
 >cd venv
 >source bin/activate
 ```
 
-#Install dependencies
-```aidl
+## Install dependencies
+```
 >cd ..
 >pip install -r requirements.txt
 ```
 
-#Run app
-```aidl
+## Run app
+```
 python fileDownloader.py
 ```
