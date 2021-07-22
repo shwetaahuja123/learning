@@ -1,12 +1,12 @@
-#Run
+# Run
 
-###In Bash
+### In Bash
 ```
 >cd bash
 >./hello.sh
 ```
 
-###In JS
+### In JS
 ```
 >cd js
 >npm i
@@ -22,7 +22,7 @@
 >node checkEnv.js
 ```
 
-###In Python
+### In Python
 ```
 >cd python
 >python Hello.py
