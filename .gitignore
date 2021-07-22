@@ -3,3 +3,6 @@ flask-api/.idea/
 flask-api/comicReader/venv/
 flask-api/fileDownloader/venv/
 flask-api/comicReader/src/utilities/__pycache__/
+learning-js-python/js/node_modules/
+learning-js-python/js/package-lock.json/
+learning-js-python/.idea
