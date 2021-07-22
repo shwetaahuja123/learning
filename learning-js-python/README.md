@@ -20,6 +20,9 @@
 
 //to identify current env(python, node, etc)
 >node checkEnv.js
+
+//program that prints itself
+>node printItself.js
 ```
 
 ### In Python
@@ -35,4 +38,7 @@
 
 //to identify current env(python, node, etc)
 >python checkEnv.py
+
+//program that prints itself
+>python printItself.py
 ```
